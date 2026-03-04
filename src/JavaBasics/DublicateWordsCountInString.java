@@ -1,9 +1,10 @@
 package JavaBasics;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Set;
 
-public class CountDublicateWords {
+public class DublicateWordsCountInString {
 
 	public static void main(String[] args) {
 	
@@ -45,4 +46,8 @@ public class CountDublicateWords {
 		}
 		
 	}
+	
+	
+	
+	
 }

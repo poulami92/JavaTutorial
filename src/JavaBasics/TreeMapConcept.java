@@ -1,5 +1,8 @@
 package JavaBasics;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.TreeMap;
 
 public class TreeMapConcept {
@@ -14,7 +17,9 @@ public class TreeMapConcept {
        
        System.out.println(map);
        
-     
+       TreeMap<Integer,String> map1 = new TreeMap<>(Collections.reverseOrder());
+       
+       
 
 	}
 

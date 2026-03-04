@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class ConvertMapToArrayList {
+public class MapToArrayListConvert {
 
 	public static void main(String[] args) {
 
@@ -22,6 +22,8 @@ public class ConvertMapToArrayList {
 	       for(Entry entry :mapEntries)
 	       {
 	    	   System.out.println(entry);
+	    	   System.out.println(entry.getKey());
+	    	   System.out.println(entry.getValue());
 	       }
 	       
 	       ArrayList<String> keyList = new ArrayList<>(map.keySet());
